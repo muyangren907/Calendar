@@ -7,7 +7,7 @@ SCREEN DW 1 DUP(?)
 STACK ENDS
 ;--------------------------------------------------------------------------
 DATA SEGMENT
-COPY_RIGHT DB 'Copyright (C) muyangren907 2017.  All rights reserved.',13,10,13,10,13,10,25 DUP(' '),'WELCOME TO CALENDAR V1.0!'
+COPY_RIGHT DB 'Copyright (C) muyangren907 2017.  All rights reserved.',13,10,13,10,13,10,25 DUP(' '),'WELCOME TO CALENDAR V2.0!'
 PAU DB 'PRESS ANY KEY TO CONTINUE...'
 WEEK DB 'S    M    T    W    T    F    S'
 YEARD DB 'YEAR:',6 DUP(' '),'MONTH:'
